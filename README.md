@@ -177,11 +177,11 @@ Dúvidas, estou à disposição por e-mail ou em sala.
 ## Reconhecimentos e Direitos Autorais
 
 ```
-@autor:                [Seu Nome]  
-@contato:              [Seu Email]  
-@data última versão:   20/04/2025  
+@autor:                [Diogo Brasil Da Silva]  
+@contato:              [diogobrasildasilva@gmail.com]  
+@data última versão:   26/04/2025  
 @versão:               1.0  
-@outros repositórios:  [URLs opcionais]  
+@outros repositórios:  [http://github.com/diogobrasil/analises-tcc-cripto]  
 @Agradecimentos:       Universidade Federal do Maranhão (UFMA),  
                        Prof. Dr. Thales Levi Azevedo Valente, thales.l.a.valente@gmail.com
                        https://www.linkedin.com/in/thalesvalente/
