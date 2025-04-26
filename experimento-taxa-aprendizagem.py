@@ -26,7 +26,7 @@ def main():
 
     x_aug = np.column_stack((np.ones(m), x))
 
-    theta_init = np.array([8.5, 4.0])
+    theta_init = np.array([0, 0])
     # Parâmetros da descida do gradiente
     # Define o número de iterações e a taxa de aprendizado (alpha)
     # O número de iterações determina quantas vezes os parâmetros serão atualizados.
@@ -36,7 +36,7 @@ def main():
     # Um alpha muito grande pode fazer o algoritmo divergir, enquanto um muito pequeno pode torná-lo lento.
     # Aqui, alpha é definido como 0.01, um valor comumente usado em problemas de regressão linear.
     # Você pode experimentar outros valores para ver como o algoritmo se comporta.
-    alphas = [0.011, 0.01, 0.009]
+    alphas = [0.005, 0.01, 0.001]
     colors = ['b','g', 'r']
     thetas = []
 
@@ -56,7 +56,9 @@ def main():
     plt.savefig("Figures/experimento_taxa_aprendizado.svg", format='svg', bbox_inches='tight')
     plt.show()
 
-    print(thetas)
+    print('Valores finais de theta para diferentes taxas de aprendizado:')
+    for alpha, theta in zip(alphas, thetas):
+        print(f'α = {alpha}: θ = {theta}')
 
 
 if __name__ == '__main__':
